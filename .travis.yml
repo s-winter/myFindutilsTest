@@ -1,0 +1,13 @@
+language: cpp
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get -y install autopoint texinfo
+
+install:
+  - ./bootstrap
+  - ./configure
+
+script:
+  - make
+  - make check
