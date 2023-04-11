@@ -14,9 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: autopoint texinfo
-          version: 1.0
+      with:
+        packages: autopoint texinfo
+        version: 1.0
 
     - name: bootstrap
       run: ./bootstrap
