@@ -1,3 +1,5 @@
+!!Attention!! This is just a fork for demo purposes.
+
 This package contains the GNU find, xargs, and locate programs.  find
 and xargs comply with POSIX 1003.2, as far as I know (with the
 exception of the "+" modifier for the "-exec" action, which isn't
